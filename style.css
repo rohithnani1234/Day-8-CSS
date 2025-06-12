@@ -11,9 +11,10 @@ body{
   height: 40px;
   display: flex;
   justify-content: space-between;
-  /* position: fixed; */
+  position: fixed;
   background-color: black;
   color: white;
+  z-index: 1;
 }
 .left-header {
   display: flex;
